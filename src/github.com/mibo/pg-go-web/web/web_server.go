@@ -7,6 +7,8 @@ import (
 	"strings"
 )
 
+// see: https://astaxie.gitbooks.io/build-web-application-with-golang/en/03.2.html
+
 func sayhelloName(w http.ResponseWriter, r *http.Request) {
 	r.ParseForm()       // parse arguments, you have to call this by yourself
 	fmt.Println(r.Form) // print form information in server side

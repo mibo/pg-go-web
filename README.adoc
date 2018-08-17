@@ -13,6 +13,15 @@
   . Open `http://localhost:9090`
   ** Or open `http://localhost:9090/?url_long=111&url_long=222`
 
+== Some (helpful, necessary) Go commands
+
+  * Get current go environment settings `go env`
+  * Install dependency `go get ...`, e.g. `go get github.com/julienschmidt/httprouter`
+  * Build, install, run...
+  ** Build: `go build ./src/github.com/mibo/web/web_server.go`
+  ** Install: `go install ./src/github.com/mibo/web/web_server.go`
+  ** Rub: `./bin/web_server`
+
 == Tutorials, Docs...
 
   * Official documentation:
