@@ -1,0 +1,30 @@
+= Playground to learn Go
+
+== How To Get Started with this project
+
+  . Fulfill prerequisites
+  .. link:https://golang.org/doc/install[Install Go]
+  .. Check all ENV variables (EXPORT ... `$GOROOT`, `$GOPATH`, `$GOBIN`) are set up correctly.
+  . Checkout `git clone https://github.com/mibo/pg-go-web.git`
+  . Change into your project directory (`cd pg-go-web`)
+  . Add your working directory (_this dir_) to `$GOPATH` (e.g. `export GOPATH=$GOPATH:$(pwd)`
+  . Run `go install src/github.com/mibo/pg-go-web/web/web_server.go`
+  . Run `./bin/web_server` (or `$GOBIN/web_server` dependent on `GOBIN` env)
+  . Open `http://localhost:9090`
+  ** Or open `http://localhost:9090/?url_long=111&url_long=222`
+
+== Tutorials, Docs...
+
+  * Official documentation:
+  ** link:https://golang.org/doc/install[Installation]
+  * Good (external) tutorials:
+  ** link:https://astaxie.gitbooks.io/build-web-application-with-golang/en/[Build a web application with Go]
+
+=== Read to get more familiar with Go
+
+  . link:https://golang.org/doc/code.html#Workspaces[Go: Workspaces]
+  ** link:https://github.com/golang/go/wiki/SettingGOPATH[Doc: Setting $GOPATH]
+
+== More Projects, Deps, libs...
+
+  * link:https://github.com/julienschmidt/httprouter[Go: httprouter]
